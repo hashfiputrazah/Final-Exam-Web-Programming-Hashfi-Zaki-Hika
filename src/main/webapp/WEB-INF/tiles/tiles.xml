@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="based-template" template="/WEB-INF/tiles/layout/based-template.jsp">
+		<put-attribute name="header" value="/WEB-INF/tiles/templates/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/tiles/templates/menu.jsp" />  
+		<put-attribute name="content" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/templates/footer.jsp" /> 
+	</definition>
+
+	<!-- Home Page -->
+	<definition name="home.index" extends="based-template">
+		<put-attribute name="content" value="/WEB-INF/views/home/index.jsp" />
+	</definition>
+
+	<!-- AboutUs Page -->
+	<definition name="aboutus.index" extends="based-template">
+		<put-attribute name="content" value="/WEB-INF/views/aboutus/index.jsp" />
+	</definition>
+	
+	<!-- News Page -->
+	<definition name="news.index" extends="based-template">
+		<put-attribute name="content" value="/WEB-INF/views/news/index.jsp" />
+	</definition>
+	
+<!-- 	Lib management -->
+	<definition name="library_management.list_library" extends="based-template">
+		<put-attribute name="content" value="/WEB-INF/views/library_management/list_library.jsp" />
+	</definition>
+	
+	<definition name="library_management.manage_library" extends="based-template">
+		<put-attribute name="content" value="/WEB-INF/views/library_management/manage_library.jsp" />
+	</definition>
+
+</tiles-definitions>

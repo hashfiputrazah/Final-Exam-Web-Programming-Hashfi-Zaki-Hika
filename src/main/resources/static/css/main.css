@@ -1,0 +1,67 @@
+.hello-title{
+    color: darkgreen;
+}
+.side_bg{
+	background: url(/e_library/img/temp_library/side_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing_bg{
+	background: url(/e_library/img/temp_library/bg_lib.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.txt_log_color{
+	color: white;
+}
+.container{
+	position: relative;
+    top: 20%;
+	display:flex;
+	justify-content: center;
+}
+.container_login{
+    height: 380px;
+    width: 500px;
+    border-radius: 12px;
+    background-color: #000000a1;
+    padding: 25px
+}
+.container_register{
+    height: 450px;
+    width: 500px;
+    border-radius: 12px;
+    background-color: #000000a1;
+    padding: 25px
+}
+.header_title{
+	background-color: #a3781fc2 !important;
+}
+.lis .nav-item{
+	background: #0000009c;
+}
+.navbar-nav{
+	background: #0000009c;
+	border-radius: 12px
+}
+.nav-link{
+		color: #c2c7d0 !important;
+		border-radius: 12px
+}
+
+.big_container{
+background: url(/e_library/img/temp_library/bg_containerxx.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.e_lib_nav:hover{
+	background: gray;
+	color: black
+}
+.transparent_card{
+	background-color: #ffffff6e
+}
+.headertab{
+	background: #b8ab52b8;
+	color: white;
+}
